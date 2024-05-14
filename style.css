@@ -311,9 +311,18 @@ header * {
     display: flex;
     justify-content: space-between;
   }
-  @media (max-width: 767px){
+
+  @media (max-width: 600px){
+    .conco #contact h2{
+      width: 350px;
+    }
+    .conco #contact #us{
+      width: 350px;
+      margin-left: 70px;
+    }
     .contact .content{
       flex-direction: column;
+      margin-left: -20px;
     }
   }
   
